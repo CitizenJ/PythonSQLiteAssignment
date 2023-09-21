@@ -12,4 +12,4 @@ Coming soon. Meanwhile, refer to comments included in the code.
 
 KNOWN ISSUES
 
-When run, the application will print the following error message: "error has occurred: patientnumber and arrivaldate are not unique". This due to the text file containing the same combination of patient number and arrival date twice. Since patient number and arrival date are used as a composite key, and a composite keys have to be unique, the same combination cannot occur twice. The application nevertheless handles this error gracefully, and the rest of the data will be successfully inserted to the database. 
+When run, the application will print the following error message: "error has occurred: patientnumber and arrivaldate are not unique". This is due to the text file containing the same combination of patient number and arrival date twice. Since patient number and arrival date are used as a composite key, and a composite keys have to be unique, the same combination cannot occur twice. The application nevertheless handles this error gracefully, and the rest of the data will be successfully inserted to the database. 
